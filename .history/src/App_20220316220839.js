@@ -9,13 +9,7 @@ class App extends Component{
   render(){
     return(
 
-      <BrowserRouter>
-      <Routes>
-      <Route path='/login' element={<Login/>}/>
-      <Route path='/admin' element={<Admin/>}/>
-      
-      </Routes>
-      </BrowserRouter>
+      <div><FontAwesomeIcon icon={solid('user-secret')} /> App</div>
     )
   }
 }
