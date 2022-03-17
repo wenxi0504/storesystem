@@ -7,7 +7,7 @@ class App extends Component{
   render(){
     return(
 
-      <div><FontAwesomeIcon icon={solid('user-secret')} /> App</div>
+      <div><FontAwesomeIcon icon={regular('coffee')} /> App</div>
     )
   }
 }
