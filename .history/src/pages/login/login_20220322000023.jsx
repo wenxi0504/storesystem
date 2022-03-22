@@ -35,16 +35,16 @@ return(
       <Form.Group className="mb-3" controlId="formBasicUser">
         <Form.Label>User Name</Form.Label>
         <Form.Control 
-         type="text"
-         name="userName" 
+         type="user"
+         name="User Name" 
          placeholder="User Name"
          value={values.userName}
          onChange={handleChange}
          isValid={touched.userName && !errors.userName}
          isInvalid={!!errors.userName}/>
-          {/* <Form.Control.Feedback >
+          <Form.Control.Feedback >
          Looks good!
-        </Form.Control.Feedback> */}
+        </Form.Control.Feedback>
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
