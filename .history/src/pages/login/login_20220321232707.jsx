@@ -42,21 +42,11 @@ export default class Login extends Component {
                onChange={handleChange}
                isValid={touched.userName && !error.userName}
                isInvalid={!!error.userName}/>
-                <Form.Control.Feedback type="invalid">
-                {error.userName}
-              </Form.Control.Feedback>
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">
               <Form.Label>Password</Form.Label>
-              <Form.Control 
-              type="password" 
-              name="password"
-              placeholder="Password" 
-              value={values.password}
-              onChange={handleChange}
-              isValid={touched.password&&!error.password}
-              isInvalid={!!error.password}/>
+              <Form.Control type="password" placeholder="Password" />
             </Form.Group>
             <Button variant="primary" type="submit">
               Submit
