@@ -5,7 +5,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './pages/login/login';
 import Admin from './pages/admin/admin';
-import LoginHookForm from './pages/loginHookForm/loginHookForm'
+import loginHookForm from './pages/loginHookForm/loginHookForm'
 class App extends Component{
 
   render(){
@@ -15,7 +15,7 @@ class App extends Component{
       <Routes>
       <Route path='/login' element={<Login/>}/>
       <Route path='/admin' element={<Admin/>}/>
-      <Route path='/loginhook' element={<LoginHookForm />}/>
+      <Route path='/loginhook' element={<loginHookForm/>}></Route>
       
       </Routes>
       </BrowserRouter>

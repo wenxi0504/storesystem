@@ -15,7 +15,7 @@ class App extends Component{
       <Routes>
       <Route path='/login' element={<Login/>}/>
       <Route path='/admin' element={<Admin/>}/>
-      <Route path='/loginhook' element={<LoginHookForm />}/>
+      <Route path='/loginhook' element={<loginHookForm />}/>
       
       </Routes>
       </BrowserRouter>
